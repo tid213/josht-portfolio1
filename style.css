@@ -1,10 +1,43 @@
 
+.main-container{
+    display: block;
+}
+.main-page{
+    display: flex;
+}
 
-
+.main-header{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1vw;
+}
+.main-div{
+    width: 50vw;
+    height: 30vw;
+}
+.main-header img{
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 1vw;
+}
 .selected{
     display: block;
 }
 .unselected{
     display: none;
+}
+.main-projects{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.welcome-header{
+    max-width: 10vw;
+}
+.welcome-div{
+    background: darkolivegreen;
+    color: wheat;
 }
 
