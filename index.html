@@ -2,7 +2,12 @@
 
 <html>
     <head>
-
+        <link href="style.css" type="text/css" rel="stylesheet" />
+        <script
+  src="https://code.jquery.com/jquery-3.6.3.js"
+  integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+  crossorigin="anonymous"></script>
+  <script src="script.js"></script>
     </head>
     <body>
         <div class="main-container">
@@ -14,13 +19,19 @@
             </header>
             <main>
                 <div class="main-text-box">
-                    <span>There will be my info here</span>
+                    <div id="welcome-message" class="main-div selected">
+                        <span>There will be my info here and project details</span>
+                    </div>
+                    <div id="project-1-div" class="project-1-info main-div unselected"><p>Project 1 Info</p></div>
+                    <div id="project-2-div" class="main-div unselected"><p>Project 2 Info</p></div>
+                    <div id="project-3-div" class="main-div unselected"><p>Project 3 Info</p></div>
                 </div>
-                <div class="main-projects">
+                <div class="main-spacer"></div>
+                <div id="clicked" class="main-projects">
                     <ul>
-                        <li>Project 1</li>
-                        <li>Project 2</li>
-                        <li>Project 3</li>
+                        <li title="project" id="project-1-link">Project 1</li>
+                        <li title="project" class="project-2-link">Project 2</li>
+                        <li title="project" class="project-3-link">Project 3</li>
                     </ul>
                 </div>
             </main>
