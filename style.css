@@ -1,6 +1,9 @@
-
+body{
+    background-color: black;
+}
 .main-container{
     display: block;
+    
 }
 .main-page{
     display: flex;
@@ -8,8 +11,16 @@
 
 .main-header{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
     margin-top: 1vw;
+    margin-left: auto;
+    background-color: white;
+    border-radius: 25px;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    width: 9vw;
+    height: 5vw;
 }
 .main-div{
     width: 50vw;
@@ -18,7 +29,7 @@
 .main-header img{
     max-width: 50px;
     max-height: 50px;
-    margin-right: 1vw;
+    
 }
 .selected{
     display: block;
@@ -29,15 +40,19 @@
 .main-projects{
     display: flex;
     flex-direction: column;
+    margin-top: 10vw;
     margin-left: auto;
     margin-right: auto;
+    color: white;
 }
 
 .welcome-header{
     max-width: 10vw;
 }
 .welcome-div{
-    background: darkolivegreen;
     color: wheat;
+}
+.welcome-intro{
+    margin-left: 8vw;
 }
 
