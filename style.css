@@ -1,3 +1,9 @@
+@keyframes moveleft {
+    from { transform: translateX(400px); }
+    to   { transform: translateX(0);  }
+ 
+ }
+
 body{
     background-color: black;
 }
@@ -25,6 +31,7 @@ body{
 .main-div{
     width: 50vw;
     height: 30vw;
+    overflow: hidden;
 }
 .main-header img{
     max-width: 50px;
@@ -38,21 +45,57 @@ body{
     display: none;
 }
 .main-projects{
+    width: auto;
     display: flex;
     flex-direction: column;
     margin-top: 10vw;
     margin-left: auto;
     margin-right: auto;
     color: white;
+    background-color: black;
+}
+.main-projects-header{
+    font-family: 'Ubuntu', sans-serif;
+}
+.project-list{
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .welcome-header{
-    max-width: 10vw;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 5vw;
 }
 .welcome-div{
-    color: wheat;
+    color: white;
 }
 .welcome-intro{
     margin-left: 8vw;
+    font-family: 'Ubuntu', sans-serif;
 }
-
+.project-border{
+    transform: rotate(180deg);
+}
+.project-1-link, .project-2-link{
+    padding-bottom:  1rem;
+}
+.project-1-link:hover, .project-2-link:hover, .project-3-link:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+.project-info-header{
+    color: white;
+    margin-left: 5vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+.project-list-border{
+    opacity: .33;
+}
+.project-info-div{
+    animation: moveleft 1s 1 normal forwards;
+}
+.project-info{
+    color: white;
+    margin-left: 10vw;
+    padding-top: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+}
