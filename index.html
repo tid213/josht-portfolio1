@@ -11,6 +11,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
     </head>
     <body>
         <div class="main-container">
@@ -22,15 +23,15 @@
                 <div class="main-page">
                     <div class="main-text-box">
                         <div class="welcome-div main-div selected">
-                            <div style = "position:absolute; top: 5vw; left: 2vw;">
+                            <div class="top-left-border">
                                 <svg width="200" height="100">
                                   <line x1="3" y1="5" x2="100" y2="5" stroke="#4CBB17" stroke-width="4"/>
                                   <line x1="5" y1="5" x2="5" y2="75" stroke="#4CBB17" stroke-width="4"/>
                                 </svg>
                             </div>
-                            <div class="project-list-border" style = "position:absolute; top: 30vw; left: 15vw;">
-                                <svg width="400" height="10">
-                                    <line x1="3" y1="5" x2="400" y2="5" stroke="#808080" stroke-width="4"/>
+                            <div class="page-divider">
+                                <svg width="200" height="10">
+                                    <line x1="3" y1="5" x2="200" y2="5" stroke="#808080" stroke-width="4"/>
                                 </svg>
                             </div>
                             <div class="welcome-header">
@@ -42,20 +43,20 @@
                             
                         </div>
                         <div class="main-div project-1-info unselected">
-                            <div style = "position:absolute; top: 5vw; left: 2vw;">
+                            <div class="top-left-border">
                                 <svg width="200" height="100">
                                   <line x1="3" y1="5" x2="100" y2="5" stroke="#4CBB17" stroke-width="4"/>
                                   <line x1="5" y1="5" x2="5" y2="75" stroke="#4CBB17" stroke-width="4"/>
                                 </svg>
                                 </div>
-                                <div class="project-list-border" style = "position:absolute; top: 30vw; left: 15vw;">
-                                    <svg width="400" height="10">
-                                        <line x1="3" y1="5" x2="400" y2="5" stroke="#808080" stroke-width="4"/>
+                                <div class="page-divider-1">
+                                    <svg width="200" height="10">
+                                        <line x1="3" y1="5" x2="200" y2="5" stroke="#808080" stroke-width="4"/>
                                     </svg>
                                 </div>
                             <div class="project-info-div">
                                 <div class="project-info-header">
-                                    <h1>Green Notez</h1>
+                                    <h3>Green Notez</h3>
                                 </div>
                                 <div class="project-info">
                                     <p>I created Green Notez to help keep notes of water changes, daily checks
@@ -68,20 +69,20 @@
                             
                         </div>
                         <div class="main-div project-2-info  unselected">
-                            <div style = "position:absolute; top: 5vw; left: 2vw;">
+                            <div class="top-left-border">
                                 <svg width="200" height="100">
                                   <line x1="3" y1="5" x2="100" y2="5" stroke="#4CBB17" stroke-width="4"/>
                                   <line x1="5" y1="5" x2="5" y2="75" stroke="#4CBB17" stroke-width="4"/>
                                 </svg>
                             </div>
-                            <div class="project-list-border" style = "position:absolute; top: 30vw; left: 15vw;">
-                                <svg width="400" height="10">
-                                    <line x1="3" y1="5" x2="400" y2="5" stroke="#808080" stroke-width="4"/>
+                            <div class="page-divider-2">
+                                <svg width="200" height="10">
+                                    <line x1="3" y1="5" x2="200" y2="5" stroke="#808080" stroke-width="4"/>
                                 </svg>
                             </div>
                             <div class="project-info-div">
                                 <div class="project-info-header">
-                                    <h1>Green Capz</h1>
+                                    <h3>Green Capz</h3>
                                 </div>
                                 <div class="project-info">
                                     <p>I created Green Capz to help monitor the water in my indoor garden.</p>
@@ -92,20 +93,20 @@
                             </div>
                         </div>
                         <div class="main-div project-3-info  unselected">
-                            <div style = "position:absolute; top: 5vw; left: 2vw;">
+                            <div class="top-left-border">
                                 <svg width="200" height="100">
                                   <line x1="3" y1="5" x2="100" y2="5" stroke="#4CBB17" stroke-width="4"/>
                                   <line x1="5" y1="5" x2="5" y2="75" stroke="#4CBB17" stroke-width="4"/>
                                 </svg>
                             </div>
-                            <div class="project-list-border" style = "position:absolute; top: 30vw; left: 15vw;">
-                                <svg width="400" height="10">
-                                    <line x1="3" y1="5" x2="400" y2="5" stroke="#808080" stroke-width="4"/>
+                            <div class="page-divider-3">
+                                <svg width="200" height="10">
+                                    <line x1="3" y1="5" x2="200" y2="5" stroke="#808080" stroke-width="4"/>
                                 </svg>
                             </div>
                             <div class="project-info-div">
                                 <div class="project-info-header">
-                                    <h1>Green Capz Sensor Controller</h1>
+                                    <h3>Green Capz Sensor Controller</h3>
                                 </div>
                                 <div class="project-info">
                                     <p>I created the sensor controller for the Green Capz app using a Raspberry Pi.</p>
@@ -118,25 +119,30 @@
                     </div>
                     <div class="main-spacer"></div>
                     <div class="main-projects">
-                        <div class="project-border" style = "position:absolute; top: 31vw; right: 15vw;">
-                            <svg width="200" height="100">
-                                <line x1="3" y1="5" x2="100" y2="5" stroke="#4CBB17" stroke-width="4"/>
-                                <line x1="5" y1="5" x2="5" y2="75" stroke="#4CBB17" stroke-width="4"/>
-                            </svg>
-                            </div>
-                            <div class="project-list-border" style = "position:absolute; top: 15vw; right: 35vw;">
+                            <div class="project-list-border">
                                 <svg width="20" height="400">
-                                    <line x1="5" y1="5" x2="5" y2="250" stroke="#808080" stroke-width="4"/>
+                                    <line x1="5" y1="0" x2="5" y2="100" stroke="#808080" stroke-width="4"/>
                                 </svg>
                                 </div>
                         <div class="main-projects-header">
                             <h2>Projects</h2>
+                            <div>
+                                <svg width="400" height="10">
+                                    <line x1="0" y1="5" x2="150" y2="5" stroke="#4CBB17" stroke-width="4"/>
+                                </svg>
+                            </div>
                         </div>
                         <div class="project-list">
                             <div><p class="project-1-link">Green Notez</p></div>
                             <div><p class="project-2-link">Green Capz</p></div>
                             <div><p class="project-3-link">GC Sensor Controller</p></div>
-                        </div>      
+                        </div> 
+                        <div class="project-border">
+                            <svg width="200" height="100">
+                                <line x1="3" y1="5" x2="100" y2="5" stroke="#4CBB17" stroke-width="4"/>
+                                <line x1="5" y1="5" x2="5" y2="75" stroke="#4CBB17" stroke-width="4"/>
+                            </svg>
+                        </div>     
                     </div>
                 </div>
             </main>
