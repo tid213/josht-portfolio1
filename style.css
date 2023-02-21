@@ -40,7 +40,7 @@ body{
     height: 8vw;
 }
 .main-div{
-    height: 70vw;
+    height: 80vw;
     overflow: hidden;
     margin-right: 3vw;
 }
@@ -52,30 +52,30 @@ body{
 /* SVG Borders and Lines */
 .top-left-border{
     position:absolute; 
-    top: 9vw; 
-    left: 5vw;
+    top: 1vw; 
+    left: 1vw;
 }
 .project-list-border{
     position:absolute; 
-    top: 90vw; 
+    top: 100vw; 
     left: 5vw;
     opacity: .25;
 }
 .project-list-border-top{
     position:absolute; 
-    top: 93vw; 
+    top: 104vw; 
     left: 5vw;
     opacity: .25;
 }
 .project-list-border-center{
     position:absolute; 
-    top: 96vw; 
+    top: 108vw; 
     left: 5vw;
     opacity: .25;
 }
 .project-list-border-bottom{
     position:absolute; 
-    top: 100vw; 
+    top: 112vw; 
     left: 5vw;
     opacity: .25;
 }
@@ -90,11 +90,10 @@ body{
     right: 5vw;
     top: 60vw;*/
 }
-
 .page-divider{
     opacity: .25;
     position:absolute; 
-    top: 70vw; 
+    top: 85vw; 
     left: 40vw;
 }
 
@@ -183,7 +182,7 @@ body{
 }
 .project-info-header{
     color: white;
-    margin-left: 8vw;
+    margin-left: 6vw;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -195,5 +194,5 @@ body{
     margin-left: 10vw;
     margin-right: 3vw;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
 }
