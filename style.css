@@ -4,13 +4,19 @@
  
  }
 
+ /* Select and deselect styles*/
+.selected{
+    display: block;
+}
+.unselected{
+    display: none;
+}
+
 body{
     background-color: black;
 }
 .main-container{
     display: block;
-    
-    
 }
 .main-page{
     display: flex;
@@ -93,13 +99,6 @@ body{
 }
 
 
-
-.selected{
-    display: block;
-}
-.unselected{
-    display: none;
-}
 .main-projects{
     width: auto;
     display: flex;
@@ -116,6 +115,46 @@ body{
     margin: 0;
 }
 
+.project-links{
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.live-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16vw;
+    height: 8vw;
+    background-color: white;
+    border-radius: 24px;
+    margin-right: 1vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+.live-link a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.github-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18vw;
+    height: 8vw;
+    background-color: white;
+    border-radius: 24px;
+    margin-right: 1vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+.github-link a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
 .welcome-header{
     font-family: 'Ubuntu', sans-serif;
     margin-left: 8vw;
@@ -124,9 +163,9 @@ body{
     color: white;
 }
 .welcome-intro{
-    margin-left: 8vw;
+    margin-left: 14vw;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 
