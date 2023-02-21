@@ -51,9 +51,30 @@ body{
 }
 .project-list-border{
     position:absolute; 
-    top: 98vw; 
+    top: 90vw; 
     left: 5vw;
     opacity: .25;
+}
+.project-list-border-top{
+    position:absolute; 
+    top: 93vw; 
+    left: 5vw;
+    opacity: .25;
+}
+.project-list-border-center{
+    position:absolute; 
+    top: 96vw; 
+    left: 5vw;
+    opacity: .25;
+}
+.project-list-border-bottom{
+    position:absolute; 
+    top: 100vw; 
+    left: 5vw;
+    opacity: .25;
+}
+.projects-header-divider{
+    margin-left: 8vw;
 }
 .project-border{
     display: none;
@@ -63,25 +84,8 @@ body{
     right: 5vw;
     top: 60vw;*/
 }
+
 .page-divider{
-    opacity: .25;
-    position:absolute; 
-    top: 70vw; 
-    left: 10vw;
-}
-.page-divider-1{
-    opacity: .25;
-    position:absolute; 
-    top: 70vw; 
-    left: 20vw;
-}
-.page-divider-2{
-    opacity: .25;
-    position:absolute; 
-    top: 70vw; 
-    left: 30vw;
-}
-.page-divider-3{
     opacity: .25;
     position:absolute; 
     top: 70vw; 

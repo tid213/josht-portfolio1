@@ -11,6 +11,10 @@ $(document).ready(function () {
         //Add selected to clicked item
         $('.project-1-info').removeClass("unselected");
         $('.project-1-info').addClass("selected");
+        $('.pl-border-select').removeClass("project-list-border");
+        $('.pl-border-select').removeClass("project-list-border-center");
+        $('.pl-border-select').removeClass("project-list-border-bottom");
+        $('.pl-border-select').addClass("project-list-border-top");
 
     })
     $('.project-2-link').click(function(){
@@ -21,6 +25,10 @@ $(document).ready(function () {
         //Add selected to clicked item
         $('.project-2-info').removeClass("unselected");
         $('.project-2-info').addClass("selected");
+        $('.pl-border-select').removeClass("project-list-border");
+        $('.pl-border-select').removeClass("project-list-border-top");
+        $('.pl-border-select').removeClass("project-list-border-bottom");
+        $('.pl-border-select').addClass("project-list-border-center");
     
     })
     $('.project-3-link').click(function(){
@@ -31,6 +39,10 @@ $(document).ready(function () {
         //Add selected to clicked item
         $('.project-3-info').removeClass("unselected");
         $('.project-3-info').addClass("selected");
+        $('.pl-border-select').removeClass("project-list-border");
+        $('.pl-border-select').removeClass("project-list-border-top");
+        $('.pl-border-select').removeClass("project-list-border-center");
+        $('.pl-border-select').addClass("project-list-border-bottom");
         
     })
 });
