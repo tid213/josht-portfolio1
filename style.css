@@ -196,3 +196,105 @@ body{
     font-family: 'Ubuntu', sans-serif;
     font-size: 14px;
 }
+.projects-header-divider-wide{
+    display: none;
+}
+@media screen and (min-width: 600px) {
+
+    .main-page{
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        height: 100vw;
+    }
+    .main-header{
+        height: 4vw;
+        width: 8vw;
+        padding-right: 1vw;
+        padding-left: 1vw;
+    }
+    .main-header img{
+        max-width: 32px;
+        max-height: 32px;
+    }
+    .main-div{
+        height: auto;
+        max-width: 60vw;
+        margin-top: 3vw;
+    }
+    
+    .project-info-div{
+        margin-left: 2vw;
+
+    }
+    .project-info-header h3{
+        font-size:  2rem;
+    }
+
+    .project-info-header{
+        margin-left: 7vw;
+    }
+    .project-info{
+        margin-left: 9vw;
+        font-size: large;
+    }
+    .welcome-intro{
+        margin-left: 9vw;
+        font-size: large;
+    }
+    .main-projects{
+        margin-top: 24vw;
+        margin-left: 8vw;
+    }
+    .projects-header-divider{
+        display: none;
+    }
+    .project-list-border {
+        position: absolute;
+        top: 26vw;
+        left: 70vw;
+        opacity: .25;
+    }
+    .top-left-border{
+        position:absolute; 
+        top: 7vw; 
+        left: 6vw;
+    }
+    .project-list-border-top{
+        position:absolute; 
+        top: 31vw; 
+        left: 70vw;
+        opacity: .25;
+    }
+    .project-list-border-center{
+        position:absolute; 
+        top: 35vw; 
+        left: 70vw;
+        opacity: .25;
+    }
+    .project-list-border-bottom{
+        position:absolute; 
+        top: 39vw; 
+        left: 70vw;
+        opacity: .25;
+    }
+    .project-border{
+        display: block;
+        transform: rotate(180deg);
+        position:absolute; 
+        right: 6vw;
+        top: 42vw;
+
+    }
+    .project-links {
+        width: 20vw;
+    }
+    .github-link{
+        height: 4vw;
+        width: 9vw;
+    }
+    .live-link{
+        height: 4vw;
+        width: 9vw;
+    }
+  }
