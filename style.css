@@ -38,6 +38,7 @@ body{
     padding-left: 2vw;
     width: 16vw;
     height: 8vw;
+    font-family: 'Ubuntu', sans-serif;
 }
 .main-div{
     height: 80vw;
@@ -95,6 +96,9 @@ body{
     position:absolute; 
     top: 85vw; 
     left: 40vw;
+}
+.main-bottom-border{
+    display: none;
 }
 
 
@@ -163,7 +167,7 @@ body{
 }
 .welcome-intro{
     margin-left: 14vw;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
 
@@ -193,7 +197,7 @@ body{
     color: white;
     margin-left: 10vw;
     margin-right: 3vw;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
 .projects-header-divider-wide{
@@ -296,5 +300,11 @@ body{
     .live-link{
         height: 4vw;
         width: 9vw;
+    }
+    .main-bottom-border{
+        display: block;
+        opacity: .25;
+        margin-top: 2vw;
+        margin-left: 35vw;
     }
   }
