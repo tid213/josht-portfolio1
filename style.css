@@ -42,7 +42,7 @@ body{
     box-shadow: 0px 0px 15px 5px #4CBB17;
 }
 .main-div{
-    height: 80vw;
+    height: 50vh;
     overflow: hidden;
     margin-right: 3vw;
 }
@@ -59,25 +59,25 @@ body{
 }
 .project-list-border{
     position:absolute; 
-    top: 100vw; 
+    top: 55vh; 
     left: 5vw;
     opacity: .25;
 }
 .project-list-border-top{
     position:absolute; 
-    top: 104vw; 
+    top: 60vh; 
     left: 5vw;
     opacity: .25;
 }
 .project-list-border-center{
     position:absolute; 
-    top: 108vw; 
+    top: 65vh; 
     left: 5vw;
     opacity: .25;
 }
 .project-list-border-bottom{
     position:absolute; 
-    top: 112vw; 
+    top: 69vh; 
     left: 5vw;
     opacity: .25;
 }
@@ -95,7 +95,7 @@ body{
 .page-divider{
     opacity: .25;
     position:absolute; 
-    top: 85vw; 
+    top: 50vh; 
     left: 40vw;
 }
 .main-bottom-border{
