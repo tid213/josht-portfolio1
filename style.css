@@ -54,8 +54,9 @@ body{
 /* SVG Borders and Lines */
 .top-left-border{
     position:absolute; 
-    top: 4vh; 
-    left: 3vw;
+    top: 0vh;
+    left: 0;
+    transform: rotate(270deg);
 }
 .project-list-border{
     position:absolute; 
@@ -135,7 +136,6 @@ body{
     border-radius: 24px;
     margin-right: 5vw;
     font-family: 'Ubuntu', sans-serif;
-    box-shadow: 0px 0px 15px 5px #4CBB17;
     color: black;
     font-weight: bold;
 }
@@ -149,7 +149,6 @@ body{
     border-radius: 24px;
     margin-right: 1vw;
     font-family: 'Ubuntu', sans-serif;
-    box-shadow: 0px 0px 15px 5px #4CBB17;
     color: black;
     font-weight: bold;
 }
@@ -204,6 +203,16 @@ a{
 }
 .projects-header-divider-wide{
     display: none;
+}
+.tech-stack-imgs{
+    margin-left: 10vw;
+}
+.tech-stack-imgs img{
+    padding-top: 0;
+    padding-right: 2vw;
+    padding-bottom: 1vh;
+    height: 24px;
+    width: 24px;
 }
 @media screen and (min-width: 600px) {
 
@@ -263,8 +272,8 @@ a{
     }
     .top-left-border{
         position:absolute; 
-        top: 7vw; 
-        left: 6vw;
+        left: 3vw;
+        top: 5vh;
     }
     .project-list-border-top{
         position:absolute; 
@@ -285,9 +294,10 @@ a{
         opacity: .25;
     }
     .project-border{
-        display: block;
-        transform: rotate(180deg);
-        margin-left: 12vw;
+        position:absolute; 
+        right: 5vw;
+        top: 60vw;
+        transform: rotate(90deg);
 
     }
     .project-links {
@@ -310,5 +320,15 @@ a{
     }
     .page-divider{
         display: none;
+    }
+    .tech-stack-imgs{
+        margin-left: 10vw;
+    }
+    .tech-stack-imgs img{
+        padding-top: 0;
+        padding-right: 2vw;
+        padding-bottom: 2vh;
+        height: 36px;
+        width: 36px;
     }
   }
