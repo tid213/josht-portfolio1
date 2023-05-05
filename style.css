@@ -189,6 +189,11 @@ a{
     color: white;
     margin-left: 6vw;
     font-family: 'Ubuntu', sans-serif;
+
+}
+.project-info-header h3{
+    margin: 0;
+    padding: 0;
 }
 
 .project-info-div{
