@@ -193,6 +193,7 @@ a{
 
 .project-info-div{
     animation: moveleft 1s 1 normal forwards;
+    height: auto;
 }
 .project-info{
     color: white;
