@@ -60,29 +60,30 @@ body{
 }
 .project-list-border{
     position:absolute; 
-    top: 55vh; 
-    left: 5vw;
+    top: 50vh; 
+    left: 4vw;
     opacity: .25;
 }
 .project-list-border-top{
     position:absolute; 
-    top: 60vh; 
-    left: 5vw;
+    top: 56vh; 
+    left: 4vw;
     opacity: .25;
 }
 .project-list-border-center{
     position:absolute; 
-    top: 65vh; 
-    left: 5vw;
+    top: 63vh; 
+    left: 4vw;
     opacity: .25;
 }
 .project-list-border-bottom{
     position:absolute; 
     top: 69vh; 
-    left: 5vw;
+    left: 4vw;
     opacity: .25;
 }
 .projects-header-divider{
+    display: none;
     margin-left: 8vw;
 }
 .project-border{
@@ -117,7 +118,10 @@ body{
     font-family: 'Ubuntu', sans-serif;
 }
 .main-projects-header h2{
-    margin: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 1vh;
 }
 
 .project-links{
@@ -210,6 +214,14 @@ a{
 .projects-header-divider-wide{
     display: none;
 }
+.projects-line{
+    border-bottom: 3px solid black;
+}
+.projects-line-on{
+    border-bottom: 3px solid #4CBB17;
+}
+
+
 .tech-stack-imgs{
     margin-left: 10vw;
 }

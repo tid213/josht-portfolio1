@@ -15,6 +15,7 @@ $(document).ready(function () {
         $('.pl-border-select').removeClass("project-list-border-center");
         $('.pl-border-select').removeClass("project-list-border-bottom");
         $('.pl-border-select').addClass("project-list-border-top");
+        $('.projects-line').removeClass("projects-line-on");
 
     })
     $('.project-2-link').click(function(){
@@ -29,6 +30,7 @@ $(document).ready(function () {
         $('.pl-border-select').removeClass("project-list-border-top");
         $('.pl-border-select').removeClass("project-list-border-bottom");
         $('.pl-border-select').addClass("project-list-border-center");
+        $('.projects-line').removeClass("projects-line-on");
     
     })
     $('.project-3-link').click(function(){
@@ -43,6 +45,7 @@ $(document).ready(function () {
         $('.pl-border-select').removeClass("project-list-border-top");
         $('.pl-border-select').removeClass("project-list-border-center");
         $('.pl-border-select').addClass("project-list-border-bottom");
+        $('.projects-line').removeClass("projects-line-on");
         
     })
 });
